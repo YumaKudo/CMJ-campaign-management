@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Active_Ads</fullName>
+    <columns>NAME</columns>
+    <columns>AdGroup__c</columns>
+    <columns>AdCode__c</columns>
+    <columns>HeadLine__c</columns>
+    <columns>MediaType__c</columns>
+    <columns>Impressions__c</columns>
+    <columns>Clicks__c</columns>
+    <columns>CTR__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>全ての広告</label>
+</ListView> 

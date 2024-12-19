@@ -12,15 +12,11 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>CampaignCode__c</field>
+                <field>Campaign__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>StartDate__c</field>
-            </layoutItems>
-            <layoutItems>
-                <behavior>Required</behavior>
-                <field>EndDate__c</field>
+                <field>GroupCode__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
@@ -32,6 +28,10 @@
                 <behavior>Edit</behavior>
                 <field>Budget__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>MaxBid__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -39,38 +39,27 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>説明</label>
+        <label>ターゲティング</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Description__c</field>
+                <field>TargetingCriteria__c</field>
             </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
     <relatedLists>
         <fields>NAME</fields>
-        <fields>GroupCode__c</fields>
-        <fields>Status__c</fields>
-        <fields>Budget__c</fields>
-        <relatedList>AdGroup__c.Campaign__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <fields>DueDate__c</fields>
-        <fields>Status__c</fields>
-        <fields>Priority__c</fields>
-        <fields>AssignedTo__c</fields>
-        <relatedList>Task__c.Campaign__c</relatedList>
+        <fields>AdCode__c</fields>
+        <fields>HeadLine__c</fields>
+        <fields>MediaType__c</fields>
+        <fields>Impressions__c</fields>
+        <fields>Clicks__c</fields>
+        <fields>CTR__c</fields>
+        <relatedList>Ad__c.AdGroup__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-    <summaryLayout>
-        <masterLabel>00h8d000000PKou</masterLabel>
-        <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
-        <summaryLayoutStyle>Default</summaryLayoutStyle>
-    </summaryLayout>
 </Layout> 

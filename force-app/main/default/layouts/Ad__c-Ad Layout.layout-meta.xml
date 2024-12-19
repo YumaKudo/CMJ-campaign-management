@@ -12,25 +12,29 @@
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>CampaignCode__c</field>
+                <field>AdGroup__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>
-                <field>StartDate__c</field>
+                <field>AdCode__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Required</behavior>
-                <field>EndDate__c</field>
+                <behavior>Edit</behavior>
+                <field>HeadLine__c</field>
             </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Status__c</field>
+                <field>MediaType__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Budget__c</field>
+                <field>MediaURL__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>DestinationURL__c</field>
             </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
@@ -39,7 +43,7 @@
         <customLabel>true</customLabel>
         <detailHeading>true</detailHeading>
         <editHeading>true</editHeading>
-        <label>説明</label>
+        <label>広告文</label>
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -48,29 +52,31 @@
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
-    <relatedLists>
-        <fields>NAME</fields>
-        <fields>GroupCode__c</fields>
-        <fields>Status__c</fields>
-        <fields>Budget__c</fields>
-        <relatedList>AdGroup__c.Campaign__c</relatedList>
-    </relatedLists>
-    <relatedLists>
-        <fields>NAME</fields>
-        <fields>DueDate__c</fields>
-        <fields>Status__c</fields>
-        <fields>Priority__c</fields>
-        <fields>AssignedTo__c</fields>
-        <relatedList>Task__c.Campaign__c</relatedList>
-    </relatedLists>
+    <layoutSections>
+        <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>パフォーマンス</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Impressions__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Clicks__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>CTR__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>false</showHighlightsPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
-    <summaryLayout>
-        <masterLabel>00h8d000000PKou</masterLabel>
-        <sizeX>4</sizeX>
-        <sizeY>0</sizeY>
-        <summaryLayoutStyle>Default</summaryLayoutStyle>
-    </summaryLayout>
 </Layout> 
