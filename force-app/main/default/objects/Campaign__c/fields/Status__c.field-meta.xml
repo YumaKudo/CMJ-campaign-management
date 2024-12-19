@@ -2,7 +2,6 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Status__c</fullName>
     <label>ステータス</label>
-    <required>true</required>
     <type>Picklist</type>
     <valueSet>
         <restricted>true</restricted>
@@ -14,9 +13,9 @@
                 <label>準備中</label>
             </value>
             <value>
-                <fullName>進行中</fullName>
+                <fullName>実行中</fullName>
                 <default>false</default>
-                <label>進行中</label>
+                <label>実行中</label>
             </value>
             <value>
                 <fullName>完了</fullName>

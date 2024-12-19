@@ -2,8 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>AssignedTo__c</fullName>
     <label>担当者</label>
-    <referenceTo>User</referenceTo>
-    <relationshipName>CampaignTasks</relationshipName>
-    <required>false</required>
     <type>Lookup</type>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Tasks</relationshipName>
 </CustomField> 
