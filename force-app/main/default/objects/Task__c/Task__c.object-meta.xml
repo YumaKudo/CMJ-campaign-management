@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>キャンペーンタスク</label>
+    <pluralLabel>キャンペーンタスク</pluralLabel>
+    <nameField>
+        <label>タスク名</label>
+        <type>Text</type>
+    </nameField>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ControlledByParent</sharingModel>
+    <enableSharing>true</enableSharing>
+    <enableSearch>true</enableSearch>
+</CustomObject> 

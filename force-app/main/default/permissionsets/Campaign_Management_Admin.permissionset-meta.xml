@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>キャンペーン管理者</label>
+    <description>キャンペーン管理システムの管理者権限セット</description>
+    
+    <!-- Manufacturer__c オブジェクト権限 -->
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Manufacturer__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+    <!-- Campaign__c オブジェクト権限 -->
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Campaign__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+    <!-- Task__c オブジェクト権限 -->
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Task__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+    <!-- AdGroup__c オブジェクト権限 -->
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>AdGroup__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+
+    <!-- Ad__c オブジェクト権限 -->
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Ad__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+</PermissionSet> 

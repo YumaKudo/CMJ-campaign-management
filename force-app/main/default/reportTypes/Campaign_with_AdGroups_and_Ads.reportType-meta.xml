@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Campaign__c</baseObject>
+    <category>campaigns</category>
+    <deployed>true</deployed>
+    <description>キャンペーン、広告グループ、広告の分析用</description>
+    <label>キャンペーンと広告分析</label>
+    <sections>
+        <masterLabel>キャンペーン</masterLabel>
+        <relationship>AdGroups__r</relationship>
+    </sections>
+    <sections>
+        <masterLabel>広告</masterLabel>
+        <relationship>AdGroups__r.Ads__r</relationship>
+    </sections>
+</ReportType> 

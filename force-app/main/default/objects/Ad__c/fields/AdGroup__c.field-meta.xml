@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AdGroup__c</fullName>
+    <label>広告グループ</label>
+    <referenceTo>AdGroup__c</referenceTo>
+    <relationshipLabel>広告</relationshipLabel>
+    <relationshipName>Ads</relationshipName>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField> 

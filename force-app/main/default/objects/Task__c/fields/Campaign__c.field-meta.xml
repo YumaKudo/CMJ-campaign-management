@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campaign__c</fullName>
+    <label>キャンペーン</label>
+    <referenceTo>Campaign__c</referenceTo>
+    <relationshipLabel>タスク</relationshipLabel>
+    <relationshipName>Tasks</relationshipName>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField> 
